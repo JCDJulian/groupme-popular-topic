@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    //TODO: add dependencies
+    "request":"2.63.0",
+    "node-env-file":"0.1.8"
   }
 }
