@@ -9,7 +9,7 @@ env('.env');
 var BASE_URL = 'https://api.groupme.com/v3';
 var GROUP_ID = process.env.GROUP_ID;
 var TOKEN = process.env.API_TOKEN;
-var comment_URL = BASE_URL + '/groups/' + GROUP_ID + '/likes?period=month&token='+ TOKEN;
+var comment_URL = BASE_URL + '/groups/' + GROUP_ID + '/likes?period=week&token='+ TOKEN;
 var post_URL = BASE_URL + '/groups/' + GROUP_ID + '/update?token='+ TOKEN;
 var title = '';
 var topic = '';
